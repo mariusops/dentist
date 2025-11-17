@@ -25,28 +25,34 @@ const services = [
 
 const team = [
   {
-    name: "Ingrid Steindebakken",
-    role: "Spesialist i oral protetikk",
-    description:
-      "Gründer og klinikksjef med lidenskap for å finne løsninger som varer. Jobber mye med større rehabiliteringer og pasienter med tannlegeskrekk."
-  },
-  {
-    name: "Jonas Vangen",
+    name: "Bente Kristin Steindebakken",
     role: "Allmenn-tannlege",
     description:
-      "Opptatt av forebyggende tannpleie og skånsom behandling for hele familien. Leder også tilbudet til barn og unge."
+      "Gründer og klinikksjef med lidenskap for å finne løsninger på varige tannhelseutfordringer."
   },
   {
-    name: "Live Midtsund",
-    role: "Tannpleier",
+    name: "Lisbeth Myhre",
+    role: "Assistent",
     description:
-      "Sikrer effektive, behagelige kontroller og gir råd om god munnhygiene tilpasset hver pasient."
+      "Hjelper til med pasientbehandling og administrative oppgaver for å sikre en smidig drift av klinikken."
+  },
+  {
+    name: "Maryam",
+    role: "Allmenn-tannlege",
+    description:
+      "Fokusert på å skape en trygg og behagelig opplevelse for alle pasienter, med særlig interesse for barn og unge."
+  },
+  {
+    name: "Amalie",
+    role: "Assistent",
+    description:
+      "Bidrar til at pasientene føler seg ivaretatt og komfortable under hele behandlingsforløpet."
   }
 ];
 
 const hours = [
-  "Mandag–torsdag: 08:00–16:00",
-  "Fredag: 08:00–14:00",
+  "Mandag–torsdag: 08:00–12:00",
+  "Fredag: 08:00–18:00",
   "Akuttvakt: etter avtale"
 ];
 
@@ -74,8 +80,8 @@ export default function HomePage() {
             med deg.
           </p>
           <div className="hero-actions">
-            <a href="tel:+4738123456" className="btn primary">
-              Ring 38 12 34 56
+            <a href="tel:+4762341621" className="btn primary">
+              Ring 62 34 16 21
             </a>
             <a href="#tjenester" className="btn ghost">
               Se behandlinger
@@ -90,8 +96,8 @@ export default function HomePage() {
             <p className="eyebrow">Om klinikken</p>
             <h2>Omsorgsfull tannpleie i over 20 år</h2>
             <p>
-              Tannlege Steindebakken AS ble etablert i 2003 og holder til i lyse og moderne lokaler
-              i Skippergata 23, midt i Kristiansand sentrum. Vi tilbyr alt fra forebyggende
+              Tannlege Steindebakken AS ble etablert i 2008 og holder til i lyse og moderne lokaler
+              i Nygata 22, midt i Brumunddal sentrum. Vi tilbyr alt fra forebyggende
               tannpleie til avansert behandling og legger stor vekt på å forklare hvert steg underveis.
               Trygghet, forutsigbarhet og kvalitet gir de beste resultatene.
             </p>
@@ -138,16 +144,16 @@ export default function HomePage() {
             <p className="eyebrow">Kontakt</p>
             <h2>Gi oss en lyd</h2>
             <p>
-              Telefon: <a href="tel:+4738123456">38 12 34 56</a>
+              Telefon: <a href="tel:+4762341621">62 34 16 21</a>
               <br />
-              E-post: <a href="mailto:post@tannlegesteindebakken.no">post@tannlegesteindebakken.no</a>
+              E-post: <a href="mailto:epost@epost.no">epost@epost.no</a>
             </p>
             <p>
               Adresse:
               <br />
-              Skippergata 23
+              Nygata 22
               <br />
-              4611 Kristiansand
+              2380 Brumunddal
             </p>
             <div className="hours">
               <p>Åpningstider</p>
@@ -161,7 +167,7 @@ export default function HomePage() {
           <div className="map">
             <iframe
               title="Kart over Tannlege Steindebakken AS"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1642.0872927735445!2d7.992526776456944!3d58.14564470680809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4637f1fb8a84bc5d%3A0x87e1d752746f1982!2sSkippergata%2023%2C%204611%20Kristiansand%20S!5e0!3m2!1sno!2sno!4v1713785320218!5m2!1sno!2sno"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1642.0872927735445!2d7.992526776456944!3d58.14564470680809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4637f1fb8a84bc5d%3A0x87e1d752746f1982!2sNygata%2022%2C%202380%20Brumunddal!5e0!3m2!1sno!2sno!4v1713785320218!5m2!1sno!2sno"
               width="100%"
               height="100%"
               allowFullScreen
@@ -173,7 +179,7 @@ export default function HomePage() {
       </main>
 
       <footer>
-        <p>© {currentYear} Tannlege Steindebakken AS · Org.nr: 987 654 321</p>
+        <p>© {currentYear} Tannlege Steindebakken AS · Org.nr: 992 456 078</p>
       </footer>
     </>
   );
