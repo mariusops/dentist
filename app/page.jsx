@@ -72,7 +72,7 @@ export default function HomePage() {
           </div>
         </nav>
         <div className="hero-content">
-          <p className="tagline">Trygg og personlig tannbehandling i Kristiansand</p>
+          <p className="tagline">Trygg og personlig tannbehandling i Brumunddal</p>
           <h1>Din lokale tannlege med fokus på gode opplevelser</h1>
           <p>
             Vi kombinerer moderne teknologi med varm omsorg for å gi deg og din familie den beste
