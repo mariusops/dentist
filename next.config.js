@@ -1,4 +1,4 @@
-const repoName = process.env.GITHUB_PAGES_BASE_PATH || "";
+const repoName = (process.env.GITHUB_PAGES_BASE_PATH || "").replace(/^\/+|\/+$/g, "");
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
